@@ -1,0 +1,50 @@
+
+#banner {
+ width: 100%;
+
+}
+
+.principal{
+    background: #d2a7db;
+}
+h1{
+    text-align: center
+}
+p{
+    text-align: center;
+}
+
+#missao {
+    font-size: 20px;
+}
+em strong {
+    color:azure
+}
+
+.itens{
+    font-style: italic;
+    position: relative;
+}
+.marcas{
+    background: #FFFFFF;
+
+}
+
+h2 {
+    text-align: center;
+    font-size: 25px;
+}
+ul{
+    text-transform: uppercase;
+    font-size: 30px;
+    display: inline-block;
+    vertical-align: top;
+    width: 20%;
+    margin-right: 15%;
+    font-weight: bold;
+
+}
+.celulares {
+    width: 40%;
+    padding-right: -50px;
+}

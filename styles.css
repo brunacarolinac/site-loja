@@ -1,0 +1,238 @@
+body{
+    font-family: 'PT Sans Narrow', sans-serif;
+}
+
+
+header{
+    background: #c6aae3;
+    padding:  20px 0;
+}
+.caixa{
+    position:relative;
+    width: 1000px;
+    margin: 0 auto;
+}
+nav{
+    position: absolute;
+    top: 220px;
+    right: 0px
+}
+nav li {
+    display: inline;
+    margin: 0 0 0 22px
+}
+
+nav a {
+    text-transform: uppercase;
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 30px;
+    text-decoration: none;
+}
+nav a:hover{
+    color: #42eaf0;
+    text-decoration: underline;
+}
+
+.produtos{
+    width: 990px;
+    margin: 0 auto;
+    padding: 45px  0;
+
+}
+.produtos li{
+    display: inline-block;
+	text-align: center;
+	width: 22%;
+	vertical-align: top;
+	margin: 0 0.45%;
+	padding: 30px 20px;
+	box-sizing: border-box;
+	border: 2px solid #000000;
+	border-radius: 10px;   
+}
+.produtos li:hover{
+    border-color:#eb16c1;
+}
+.produto li:active {
+    border-color: #16e8eb;
+
+}
+.produtos li hover h3{
+    font-size: 33px;
+}
+.produtos h3 {
+    font-size: 25px;
+    font-weight: bold;
+}
+.produto-imagem{
+    width: 90%;
+    margin: 10px 0 2;
+    margin: 0 0 0 0;
+    
+}
+.produto-descricao{
+    font-size: 20px;
+
+}
+footer {
+    text-align: center;
+    background-color: #c6aae3;
+}
+.logo{
+    width: 150px;
+}
+.copy{
+    color:#eb16c1;
+    font-size: -13px;
+    margin: 10px 0 0;
+}
+
+
+.dados-pessoais{
+    width: 940px;
+    margin: 0 auto;
+    
+}
+
+form{
+    margin: 40px 0;
+}
+
+form label, form legend {
+    display:block;
+    font-size: 20px;
+    margin: 0 0 15px;
+}
+.input-padrao{
+    display: block;
+    margin:0 0 20px;
+    padding: 10px 25px;
+    width: 50%;
+}
+.checkbox {
+    margin: 30px 0;
+}
+.dias {
+    width: 30%;
+    padding: 15px 0;
+}
+
+.enviar {
+    display: block;
+    margin: 20px;
+    width: 40%;
+    padding: 15px 0;
+    background: #eb16c1;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    transition: 1s background;
+    cursor: pointer;
+}
+
+.enviar:hover {
+    background: #3be7f7;
+    transform: scale(1,1);
+
+}
+
+table {
+    margin: 20px 0 40px;
+}
+
+thead{
+    background: #dbb6ff;
+    color:#FFFFFF;
+    font-weight: bold;
+}
+td, th {
+    border: 1px solid #eb16c1;
+    padding: 8px 15px; 
+}
+/* css da pagina inicial */
+.banner {
+    width: 100%;
+    position: relative;
+    padding: 10px 15px; 
+    text-align: center;
+   
+}
+.titulo-principal {
+    text-align: center;
+    font-size: 2em;
+    margin: 0 0 1em;
+    clear: left;
+    color:rgba(0, 0, 0, 3)
+}
+.principal{
+    padding:  3em 0;
+    background: #FFFFF8;
+    width: 940px;
+    margin: 0 auto;
+}
+.principal p {
+    margin: 0 0 1em;
+}
+
+.principal strong {
+    font-weight: bold;
+}
+
+.principal em {
+    font-style: italic;
+}
+
+.conserto{
+    width: 180px;
+    float:left;
+    margin: 0 20px 20px 0;
+}
+.mapa{
+    padding: 3em 0;
+    background: linear-gradient(#FFFFF8,#c6aae3);
+}
+.mapa-conteudo{
+    width: 940px;
+    margin: 0 auto;
+}
+.mapa p {
+    margin: 0 0 2em;
+    text-align: center;
+}
+.marcas {
+    padding: 3em 0;
+    background: #c6aae3;
+}
+.conteudo-celular{
+    width: 900px;
+    margin: 0% auto;
+}
+.lista-celulares{
+    width: 80%;
+    font-size: 160%;
+    display:inline-block;
+}
+.itens{
+    line-height: 1.5;
+}
+.itens::before{
+    content: "📱";
+}
+.itens:first-child{
+    font-weight: bold;
+}
+.celulares{
+    width: 940px;
+    margin:0 0 2em;
+    text-align: center;
+    opacity: 1;
+    transition: 400ms;
+    box-shadow: 10px 10px 20px 20px #cc54ea;
+
+}
+.celulares:hover {
+    opacity: 0.3;
+}
